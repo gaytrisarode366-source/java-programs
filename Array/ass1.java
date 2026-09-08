@@ -7,10 +7,12 @@ public class ass1 {
         return a-b;   
     }    
     public static int Pro(int a,int b){
-        return a*b;      
+        return a*b;       
 
     }
-
+    public static int Div(double a,double b){
+        return a/b;       
+    }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the first number:");
